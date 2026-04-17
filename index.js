@@ -57,6 +57,7 @@ bookStore.books.forEach(book => {
     bookTitle.textContent = book.title
     const bookAuthor = document.createElement('p')
     bookAuthor.textContent = `by ${book.author}`
+    const bookImage = document.createElement('img')
     bookImage.src = book.imageUrl
 
 //appending elements
